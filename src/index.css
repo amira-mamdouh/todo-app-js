@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap");
+
+h1 {
+  font-family: "Playwrite NZ", cursive;
+}
+
+.input,
+.todo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input {
+  width: 50%;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.todo-list {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.todo-list ul {
+  width: 100%;
+  list-style: none;
+  padding: 5px 10px;
+}
+
+.todo-list ul li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  padding: 5px 0;
+}
+
+.todo-list ul li label {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+input[type="checkbox"] {
+  background: red;
+}
+
+.icons {
+  left: 93%;
+}
+
+.trash,
+.edit {
+  cursor: pointer;
+}
+
+/* .trash:hover {
+  color: red;
+} */
+
+.done {
+  text-decoration: line-through;
+}
