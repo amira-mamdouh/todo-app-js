@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap");
 
+.arabic {
+  direction: rtl;
+  text-align: right;
+}
+
+.english {
+  direction: ltr;
+  text-align: left;
+}
+
 h1 {
   font-family: "Playwrite NZ", cursive;
 }
@@ -11,10 +21,12 @@ h1 {
   justify-content: center;
 }
 .input input {
-  width: 50%;
-  margin-right: 10px;
+  width: 60%;
   padding: 5px 10px;
   border-radius: 15px;
+}
+.input button {
+  margin: 0 10px;
 }
 
 .todo-list {
@@ -30,9 +42,7 @@ h1 {
 
 .todo-list ul li {
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
   border-bottom: 1px solid #aaa;
   padding: 5px 0;
 }
@@ -45,18 +55,25 @@ input[type="checkbox"] {
   background: red;
 }
 
+.addinput {
+  margin: 0 5px;
+}
+
 .icons {
-  left: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .trash,
 .edit {
   cursor: pointer;
+  font-size: 30px;
 }
 
-/* .trash:hover {
-  color: red;
-} */
+.edit {
+  margin: 0 5px;
+}
 
 .done {
   text-decoration: line-through;
