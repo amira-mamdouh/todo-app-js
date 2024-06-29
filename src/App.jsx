@@ -9,10 +9,6 @@ const router = createBrowserRouter([
     element: <ArabicApp />,
   },
   {
-    path: "/",
-    element: <EnglishApp />,
-  },
-  {
     path: "*",
     element: <EnglishApp />,
   },
