@@ -15,7 +15,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/todo-app-js",
+    basename: "/english",
   }
 );
 
