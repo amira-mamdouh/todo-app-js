@@ -73,11 +73,11 @@ export default function ArabicApp() {
           <input
             ref={inputText}
             type="text"
-            placeholder="اضف المهمة هنا..."
+            placeholder="أضف المهمة هنا..."
             onKeyDown={handleKeyDown}
           />
           <button onClick={handleAddTodo} className="btn btn-outline-dark">
-            اضف
+            أضف
           </button>
         </div>
         <div className="todo-list py-5">
@@ -119,7 +119,7 @@ export default function ArabicApp() {
                           onClick={handleSaveEdit}
                           className="btn btn-outline-success"
                         >
-                          Save
+                          حفظ
                         </button>
                       ) : (
                         <FaRegEdit
